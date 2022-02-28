@@ -1,0 +1,78 @@
+/* Element Selector */
+body {
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.6em;
+  background-color: gray;
+}
+/* Class Selector */
+.black-border {
+  border: 5px solid black;
+}
+
+/* Id Selector */
+#green-background {
+  background-color: green;
+  padding: 20px;
+  color: rgb(179, 255, 0);
+}
+
+.blue-border {
+  border: 5px double blue;
+  font-family: fantasy;
+  color: rgb(245, 177, 4);
+  background-color: black;
+  padding: 20px 30px 50px 50px;
+  font-size: 12px;
+}
+
+#black-background {
+  background-color: black;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.white-color {
+  color: white;
+}
+
+.second-text {
+  color: brown;
+  border: dashed;
+  background-color: cadetblue;
+}
+
+/* Part 2 */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Teko:wght@300&display=swap");
+
+header {
+  border: 2px groove white;
+  background-color: red;
+  color: white;
+  font-family: Playfair Display;
+  font-size: 20px;
+}
+
+main {
+  border: 8px dashed rgb(91, 107, 22);
+  margin: 10px;
+  background-color: rgb(57, 247, 231);
+  color: black;
+  font-family: Teko;
+  padding: 15px;
+}
+ul {
+  list-style: none;
+  color: rgb(255, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.5em;
+}
+
+/* Part 3 */
+.horizontal li {
+  display: inline;
+  letter-spacing: normal;
+}
